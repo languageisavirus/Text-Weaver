@@ -1,0 +1,28 @@
+<!-- Text Weaver by LanguageIsAVirus.com http://www.languageisavirus.com/text-weaver.html -->
+
+<!DOCTYPE HTML><html><head><title>Text Weaver</title></head><body>
+<h1>Text Weaver</h1>
+<p>Enter your text and choose the number of words per line you want generated. The generator will reformat your sentences vertically, with the specified number of lines per sentence.</p>
+<form name=Tree>
+<div style="padding:3px;"><strong>Number of words per line</strong>&nbsp;
+<select name="numPerLine" value=5>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5" selected="selected">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+</select></div>
+<textarea name=UserText wrap="soft" style="width:400px;height:100px;"></textarea><br />
+<input type=button value='Weave My Text' name=Go onClick=javascript:runlines();>
+<br><br>
+<strong>Your generated text will appear below.</strong><br>
+<textarea name='AnswerText' wrap=soft onclick='this.select();' style="width:400px;height:100px;"></textarea></form>
+
+<p>Text Weaver provided by <a href="http://www.languageisavirus.com" target="_blank">LanguageIsAVirus.com</a></p>
+
+</body></html>
+
